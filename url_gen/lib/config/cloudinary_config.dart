@@ -4,6 +4,9 @@ import '../src/extensions/string_extension.dart';
 import 'cloud_config.dart';
 import 'url_config.dart';
 
+export 'cloud_config.dart';
+export 'url_config.dart';
+
 class CloudinaryConfig {
   CloudConfig cloudConfig;
   UrlConfig urlConfig;
