@@ -2,8 +2,8 @@ const String apiVersion = "v1_1";
 const String defaultResourceType = "image";
 
 const int defaultChunkSize = 20 * 1024 * 1024; // bytes
-const int defaultTimeout = 60; // seconds
-const String defaultUploadPrefix = "https://api.cloudinary.com";
+const int defaultTimeout = 120; // seconds
+const String defaultUploadPrefix = "https://api-eu.cloudinary.com";
 
 const String uploadPrefixKey = "upload_prefix";
 const String chunkSizeKey = "chunk_size";
